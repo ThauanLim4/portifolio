@@ -1,0 +1,140 @@
+:root {
+    --cor1: #EBA925;
+    --cor2: #D4A817;
+    --cor3: #F6D91B;
+    --cor4: #D48017;
+    --cor5: #F6751B;
+    --font1: 'Roboto Mono', monospace;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(img/Curve\ Line.svg);
+    width: 100vh;
+}
+
+main {
+    width: 100vh;
+    height: 85vh;
+}
+
+
+/*classes*/
+
+
+.bemvindo {
+    font-family: var(--font1);
+    font-weight: 600;
+    font-size: 4em;
+    position: absolute;
+    left: 100px;
+}
+
+.apresentacao {
+    position: absolute;
+    left: 100px;
+    top: 70px;
+    text-align: justify;
+}
+
+.projetos {
+    position: absolute;
+    right: 120px;
+    margin-top: 30px;
+    font-family: var(--font1);
+    display: block;
+    font-size: 2.5em;
+}
+
+.projetoandroid {
+    position: absolute;
+    right: 130px;
+    margin-top: 90px;
+    font-family: var(--font1);
+}
+
+.projetolandingpage {
+    position: absolute;
+    right: 140px;
+    margin-top: 130px;
+    font-family: var(--font1);
+}
+
+.giticon {
+    margin: 10px;
+}
+
+.linkicon {
+    display: block;
+    margin: 10px;
+}
+.teclonogias {
+    position: absolute;
+    right: 80px;
+    margin-top: 180px;
+    font-family: var(--font1);  
+    font-size: 2.5em; 
+}
+.teclonogiasexp {
+    top: 240px;
+    right: 140px;
+    position: absolute;
+}
+
+
+/*Pseudo-elemtos*/
+
+
+.projetos:hover {
+    background-color: #ab8814;
+    box-shadow: 10px 10px 10px black;
+    transition: ease-in-out 500ms;
+    cursor: pointer;
+}
+
+.projetoandroid:hover {
+    background-color: #ab8814;
+    box-shadow: 10px 10px 10px black;
+    transition: ease-in-out 500ms;
+    cursor: pointer;
+}
+
+.projetolandingpage:hover {
+    background-color: #ab8814;
+    box-shadow: 10px 10px 10px black;
+    transition: ease-in-out 500ms;
+    cursor: pointer;
+}
+
+.giticon:hover {
+    width: 40px;
+    height: 40px;
+    transition: ease-out 200ms;
+}
+
+.linkicon:hover {
+    width: 40px;
+    height: 40px;
+    transition: ease-in-out 200ms;
+}
+.tecno1:hover {
+ background-color: var(--cor1);
+ padding: 10px;
+ transition: ease-in 200ms;
+}
+.tecno2:hover {
+ background-color: var(--cor1);
+ padding: 10px;
+ transition: ease-in 200ms;
+}
+.tecno3:hover {
+ background-color: var(--cor1);
+ padding: 10px;
+ transition: ease-in 200ms;
+}
