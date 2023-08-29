@@ -1,0 +1,172 @@
+:root {
+    /*
+        paleta padrão 
+
+    --color-one: #65E0A2;
+    --color-two: #272727;
+    --color-three: #F6F6F6; */
+
+    /*
+        paleta design 1 */
+
+    --color-one: #5C8374;
+    --color-two: #183D3D;
+    --color-three: #93B1A6;
+
+    /* paleta desing 2 
+   
+    --color-one: #446069;
+    --color-two: #252b48;
+    --color-three: #5b9a8b;
+    */
+
+    --colordesign1: #7b909c;
+    --colordesign2: #183D3D;
+    --colordesign3: #5C8374;
+    --colordesign4: #93B1A6;
+
+    --font-one: 'Krona One', sans-serif;
+    --font-two: 'Montserrat', sans-serif;
+
+}
+
+/*----------------------------------------------------------------*/
+
+@media (max-width: 480px) {
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1023px) {
+    .container {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .cabecalho {
+        padding: 10%;
+    } 
+    .menunav {
+        justify-content: center;
+    }
+    .section1 {
+        width: auto;
+    }
+}
+
+/*-----------------------------------------------------------------*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: #F6F6F6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    font-family: var(--font-two);  
+}
+
+.cabecalho {
+    padding: 2% 2% 
+}
+
+.menunav {
+    display: flex;
+    gap: 80px;
+}
+
+.linknav {
+    font-family: var(--font-two);
+    font-size: 1.5em;
+    font-weight: 600;
+    color: var(--color-one);
+}
+.destaqueh1 {color: var(--color-one);}
+.container {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    margin: 5% 15%;
+    gap: 50px;
+}
+.section1 {
+    width:  auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.titulo {
+    font-size: 2.25em;
+    font-family: var(--font-one);
+}
+.paragrafo, .paragrafo2 {
+    font-size: 1.5em;
+    font-family: var(--font-two);
+}
+
+.divisao {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.tituloredessociais {
+    font-family: var(--font-one);
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: center;
+}
+.botoesLink {
+    gap: 0px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    text-align: center;    
+    background-color: black;
+    color: white;
+    border-radius: 8px;    
+    font-size: 1.5em;
+    padding: 16px;    
+    margin-top: 10px;  
+    font-weight: 600;
+    border: 2px solid var(--color-one);
+    height: 68px;
+}
+
+.foto {
+    width: 50%;
+}
+
+.rodape {
+    background-color: var(--color-one);
+    font-family: var(--font-two);
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 36px;
+    font-weight: 400;
+    color: #272727;
+    padding: 24px;
+}
+.botoesLink:hover {
+    background-color: var(--color-two);
+    transition: 400ms;
+}
+
+.linknav:hover {
+    background-color: var(--color-one);
+    color: var(--color-three);
+    padding: 3px;
+    transition: all 300ms;
+}
