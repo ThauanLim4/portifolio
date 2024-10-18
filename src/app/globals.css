@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+  --background: #ffffff;
+  --blackDefault: #151314;
+  --blackOne: #171717;
+  --blackTwo: #191617;
+  --blackThree: #0f0e0e;
+  --pupleDefault:#AD49E1 ;
+  --fontFamily: "Inter", sans-serif;
+  --purpleShadow: 0 0 5px #AD49E1, 0 0 20px #AD49E1, 0 0 50px #AD49E1, 0 0 100px #AD49E1;
+  --purpleShadowBG: #AD49E1;
+  --boxShadow: 0 0 5px #000, 0 0 20px #000, 0 0 50px #191617,
+  0 0 100px #191617;
+
+  /* #4E31AA; */
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #151314;
+    --blackDefault: #ededed;
+  }
+}
+
+body {
+  color: var(--blackDefault);
+  background: var(--background);
+  min-height: 100vh;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.shadowDefaultButton {
+  color: #ffffff;
+  background: #AD49E1;
+  border: 1px solid #AD49E1;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  box-shadow: 0 0 5px #AD49E1, 0 0 20px #AD49E1, 0 0 50px #AD49E1,
+    0 0 100px #AD49E1;
+}
+
+.textSha:hover{
+  transition: all 0.3s;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+}
+
+.textShadowPurple:hover{
+  transition: all 0.3s;
+  text-shadow: 0 0 5px #AD49E1, 0 0 10px #AD49E1, 0 0 20px #AD49E1;
+}
+
