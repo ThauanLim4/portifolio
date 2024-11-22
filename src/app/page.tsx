@@ -1,10 +1,7 @@
 "use client";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowLeft } from '@fortawesome/free-solid-svg-icons/faArrowLeft';
 import banner from '@/img/banner.jpg';
 import Image from 'next/image';
 import { IntroductionSection } from '@/components/introduction';
-import { useState } from 'react';
 import { ProjetosSection } from '@/components/projects';
 import { SkillsSection } from '@/components/skills';
 import { Footer } from '@/components/footer';
