@@ -1,7 +1,6 @@
 import { ProjectsComponent, ProjectsComponentMobile } from "./projectsComponent";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowLeft } from '@fortawesome/free-solid-svg-icons/faArrowLeft';
-
+import { faAngleLeft } from "@fortawesome/free-solid-svg-icons";
 
 export const ProjetosSection = () => {
     return (
@@ -27,7 +26,7 @@ export const ProjetosSection = () => {
 
             <div className="mx-auto mt-10">
                 <a href={`/projects`}
-                    className="px-10 py-4 bg-purpleDefault hover:shadow-bgPurpleShadow hover:text transition duration-300 textSha">Ver mais projetos  <FontAwesomeIcon className="rotate-180 textSha" icon={faArrowLeft} />
+                    className="px-10 py-4 bg-purpleDefault hover:shadow-bgPurpleShadow hover:text transition duration-300 textSha">Ver mais projetos  <FontAwesomeIcon className="rotate-180 textSha" icon={faAngleLeft} />
                 </a>
             </div>
 

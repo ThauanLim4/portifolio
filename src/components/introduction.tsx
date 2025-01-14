@@ -15,9 +15,9 @@ export const IntroductionSection = () => {
         </div>
 
         <div className='max-md:w-3/4 w-2/4 flex flex-col gap-5 '>
-          <h1 className='text-4xl font-bold'>Óla, Sou Thauan Lima</h1>
+          <h1 className='text-4xl font-bold'>Thauan Lima</h1>
 
-          <p>Sou desenvolvedor <span className='text-purpleDefault font-semibold'>web front-end</span> com ampla experiência na criação de sites responsivos, focados em designs minimalistas e interfaces intuitivas. Tenho especialização em React, <span className='font-semibold'>utilizando suas melhores práticas para entregar soluções modernas e eficientes.</span> Além disso, possuo conhecimentos fundamentais em back-end, como integração com bancos de dados, desenvolvimento de CRUDs e testes de APIs com Postman, utilizando PHP para garantir uma comunicação robusta entre o front e back-end.</p>
+          <p>Olá, mundo! Sou <span className='text-purpleDefault'> desenvolvedor web front-end</span> com mais de um ano de experiência na criação de interfaces responsivas, atraentes e dinâmicas. Utilizo as melhores práticas e tecnologias modernas para oferecer designs limpos, agradáveis e funcionais. Trabalho com as principais tecnologias do mercado, como React.js, Next.js e TailwindCSS. Além disso, possuo experiência em back-end, incluindo consumo e tratamento de APIs, bem como testes de APIs utilizando o Postman</p>
         </div>
 
       </div>
