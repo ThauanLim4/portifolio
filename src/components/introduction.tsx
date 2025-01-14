@@ -1,5 +1,5 @@
 "use client";
-import portifolioIMG from '@/img/portifolioIMG.png';
+import portifolioIMG from '../img/portifolioIMG.png';
 import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';

@@ -1,4 +1,4 @@
-import { Skills } from "@/data/skills";
+import { Skills } from "../data/skills";
 import Image from "next/image";
 
 export const SkillsSection = () => {

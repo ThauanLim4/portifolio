@@ -1,8 +1,7 @@
 import { ProjectsComponent, ProjectsComponentMobile } from "@/components/projectsComponent";
 import banner from '@/img/banner.jpg';
 import Image from 'next/image';
-
-
+import { ProjectsComponentInDev, ProjectsComponentInDevMobile } from "@/components/projectsInDevComponent";
 
 
 const Page = () => {
@@ -37,6 +36,19 @@ const Page = () => {
                         <ProjectsComponentMobile />
                     </div>
 
+                    <div className="flex flex-row justify-center items-center w-full gap-1 my-10">
+                        <h2 className="text-3xl font-bold text-purpleDefault max-sm:w-2/4">Em breve</h2>
+                        <div className="border border-purpleDefault w-3/4"></div>
+                    </div>
+
+                    <div> 
+                        <ProjectsComponentInDev />
+                    </div>
+
+                    <div>
+                        <ProjectsComponentInDevMobile />
+                    </div>
+    
                 </div>
             </div>
 

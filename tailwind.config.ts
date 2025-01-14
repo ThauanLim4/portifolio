@@ -15,7 +15,11 @@ const config: Config = {
         blackThree: "var(--blackThree)",
         purpleDefault: "var(--pupleDefault)",
         background: "var(--background)",
-        bgpurple: "var(----purpleShadowBG)"
+        bgpurple: "var(----purpleShadowBG)",
+        purpleShadow: "var(--purpleShadow)",
+        purpleShadowBG: "var(--purpleShadowBG)",
+        boxShadow: "var(--boxShadow)",
+        grayOne: "var(--grayOne)",
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
@@ -23,8 +27,10 @@ const config: Config = {
       boxShadow: {
         bgPurpleShadow: "var(--purpleShadow)",
         bgShadow: "var(--boxShadow)"
-      }
-
+      },
+      gridAutoColumns: {
+        "2-cols": "repeat(auto-fit, minmax(200px, 1fr))",
+      },
     },
   },
   plugins: [],
